@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div{
+         width: 100px;
+         height: 100px;
+
+       }
+       #red{
+            background-color: red;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        }
+        #yellow{
+            background-color: yellow;
+            position: fixed;
+            right : 0px;
+            top: 0px;
+            /* (1)위치를 움직여줘야함, 오른쪽 위에 붙어있어야함 */
+            /* (2)오른쪽 위에 붙어있어야함 = body태그 기준으로 */
+        }
+        #blue{
+            background-color: blue;
+            position: fixed;
+            left : 0px;
+            bottom: 0px;
+        }
+        #green{
+            background-color: green;
+            position: fixed;
+            right : 0px;
+            bottom: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="red"></div>
+    <div id="yellow"></div>
+    <div id="blue"></div>
+    <div id="green"></div>
+</body>
+</html>
